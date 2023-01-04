@@ -36,7 +36,7 @@ const getWeather = (city) => {
 }
 
 submit.addEventListener("click", (e) => {
-    e.preventDefault
+    e.preventDefault()
     getWeather(city.value)
 });
 
